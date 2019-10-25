@@ -170,8 +170,8 @@ alex@ubuntu:~/c/printf$
 ```
 ## Authors
 
-* **Camilo Bayona** - *Initial work* - [cbayonao](https://github.com/cbayonao)
-* **Cristiam Camilo Baquero** - *Initial work* - [camilooob](https://github.com/camilooob)
+* [**Camilo Bayona**](www.camilobayona.com) - *Initial work* - [cbayonao](https://github.com/cbayonao)
+* [**Cristiam Camilo Baquero**](www.camilobaquero.com) - *Initial work* - [camilooob](https://github.com/camilooob)
 
 ## Acknowledgments
 
