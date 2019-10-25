@@ -50,3 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+.autogit
+.dist
+.history
+*-main.c
