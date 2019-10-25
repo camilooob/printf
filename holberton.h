@@ -4,5 +4,5 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <limits.h>
-int _printf(const char *format, ...)
+int _printf(const char *format, ...);
 #endif
