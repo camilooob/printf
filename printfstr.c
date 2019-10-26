@@ -1,11 +1,16 @@
 #include "holberton.h"
-int printstr(char *format, va_list)
+
+int printstr(char *format, va_list pa)
 {
     char *str = va_arg(pa, char *);
+    int count;
+
+    (void)format;
+
     if (str == NULL)
     {
-        printf("(nil)");
-        return;
+        string = "(null)";
     }
-    printf("%s", str);
+    count = _puts(string);
+    return (count);
 }

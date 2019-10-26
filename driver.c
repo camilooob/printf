@@ -6,27 +6,20 @@
  */
 int (*driver(char *format))(char *format, va_list)
 {
-    va_list pa;
-    int i, y;
+    int i;
     drive select[] = {
         {'c', printchar},
         {'s', printstr},
     };
     y = 0;
-    va_start(pa, format);
-    while (format[y] != '\0')
-    {
-        i = 0;
-        while (i < 2)
-        {
-            if (format[y] == drive[i].ch)
+    if (format[1] == ' ' || format[1] == '\0')
+    {}
+        return (NULL)
+            for (i = 0; select[i].sp; i++)
             {
-                driver[i].t(pa);
+                if(formar[1] == select[i].specifier[1])
+                    return (select[i].t)
             }
-            i++;
-        }
-        y++;
-    }
-    _puts("\n");
-    va_end(pa);
+}
+return (NULL);
 }

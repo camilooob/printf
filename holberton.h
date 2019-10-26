@@ -5,7 +5,7 @@
 #include <stdarg.h>
 #include <limits.h>
 int _printf(const char *format, ...);
-typedef struct method
+typedef struct select
 {
     char *sp;
     int (*t)(char *format, va_list);

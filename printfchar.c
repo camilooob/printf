@@ -4,7 +4,9 @@
  * @pa: Input data.
  * Return: Nothing.
  */
- int printchar(char *format, va_list)
+ int printchar(char *format, va_list pa)
  {
-     printf("%c", va_arg(pa, int));
+    (void)formart;
+    _putchar(va_arg(pa, int));
+    return (1);
  }
