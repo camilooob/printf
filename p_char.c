@@ -6,9 +6,9 @@
  * @args: va_list that contains the character to print
  * Return: number of characters printed
  */
-int print_char(char *format, va_list args)
+int p_char(char *format, va_list pa)
 {
 	(void)format;
-	_putchar(va_arg(args, int));
+	_putchar(va_arg(pa, int));
 	return (1);
 }
