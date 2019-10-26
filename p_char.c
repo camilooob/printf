@@ -3,8 +3,8 @@
 /**
  * p_char - funcion for char
  * @format: format to print string
- * @args: va_list that contains the character to print
- * Return: number of characters printed
+ * @pa: va_list that contains the cha.
+ * Return: 1
  */
 int p_char(char *format, va_list pa)
 {
