@@ -4,7 +4,7 @@
  * @format: string that contains the specifier
  * Return: pointer to the print function
  */
-int (*get_print_fn(char *format))
+int (*drive(char *format))
 {
 
 
