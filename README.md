@@ -151,7 +151,7 @@ Handle the following conversion specifiers:
 #### Create a man page for your function.
 ##### REPO: GitHub repository: printf
 ##### File: man_3_printf
-
+#
 ### 3. With a face like mine, I do better in print
 #### Handle the following custom conversion specifiers:
 
