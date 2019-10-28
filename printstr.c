@@ -9,11 +9,11 @@
 int printstr(char *format, va_list pa)
 {
 	char *string = va_arg(pa, char *);
-	int count;
+	int contador;
 	(void)format;
 
 	if (string == NULL)
 		string = "(null)";
-	count = _puts(string);
-	return (count);
+	contador = _puts(string);
+	return (contador);
 }

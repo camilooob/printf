@@ -1,20 +1,20 @@
 #include "holberton.h"
 
 /**
- * _puts - a function that prints a string
- * followed by a new line, to stdout.
+ * _puts - prints a string
+ * new line, to stdout.
  * @string: input string
- * Return: character count of string.
+ * Return: count of string.
  */
 int _puts(char *string)
 {
-	int count = 0;
+	int contador = 0;
 
 	while (*string)
 	{
 		_putchar(*string);
 		string++;
-		count++;
+		contador++;
 	}
-	return (count);
+	return (contador);
 }

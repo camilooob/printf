@@ -9,7 +9,7 @@ int (*driver(char *format))(char *format, va_list)
 {
 	int i;
 
-	structype getfn[] = {
+	structype selector[] = {
 		{"%c", printc},
 		{"%s", printstr},
 		{NULL, NULL}
@@ -17,10 +17,10 @@ int (*driver(char *format))(char *format, va_list)
 
 	if (format[1] == ' ' || format[1] == '\0')
 		return (NULL);
-	for (i = 0; getfn[i].q; i++)
+	for (i = 0; selector[i].q; i++)
 	{
-		if (format[1] == getfn[i].q[1])
-			return (getfn[i].u);
+		if (format[1] == selector[i].q[1])
+			return (selector[i].u);
 	}
 	return (NULL);
 }
