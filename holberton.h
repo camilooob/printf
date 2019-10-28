@@ -9,4 +9,6 @@ typedef struct select
 	char c;
 	void (*f)(va_list listed);
 }typarg;
-#endif
+void printch(va_list ap);
+void printstring(va_list ap);
+#endif /* HOLBERTON_H */

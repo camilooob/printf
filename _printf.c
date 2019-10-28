@@ -1,10 +1,10 @@
-#include "variadic_functions.h"
+#include "holberton.h"
 /**
- * print_all - Check
+ *_printf - Check
  *@format: pointer
  *Return: Always
  */
-void print_all(const char * const format, ...)
+int _printf(const char *format, ...)
 {
 	int count1, count2;
 	va_list ap;
@@ -12,8 +12,6 @@ void print_all(const char * const format, ...)
 
 	typarg tyar[] = {
 		{'c', printch},
-		{'i', printint},
-		{'f', printfloat},
 		{'s', printstring}
 	};
 	count1 = 0;
