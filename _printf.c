@@ -8,12 +8,10 @@
  **/
 int _printf(const char *format, ...)
 {
-    int written = 0, (*drive)(char *, va_list);
-    char sp[3];
-
-    va_list pa;
-
-    va_start(pa, format)
-
-        return (written);
+va_list arg;
+int done;
+va_start (arg, format);
+done = driver(stdout, format, arg, 0);
+va_end (arg); 
+return done;
 }
