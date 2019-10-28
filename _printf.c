@@ -14,7 +14,7 @@ int _printf(char *format, ...)
 		return (-1);
 	q[2] = '\0';
 	va_start(pa, format);
-	_buffer(-1);
+	_buffer(0);
 	while (format[0])
 	{
 		if (format[0] == '%')
