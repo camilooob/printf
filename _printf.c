@@ -45,6 +45,6 @@ int _printf(char *format, ...)
 			format++;
 		}
 	}
-	_putchar(-2);
+	_putchar(-1);
 	return (written);
 }
