@@ -196,7 +196,7 @@ Handle the following conversion specifiers:
 #### Handle the following flag characters for non-custom conversion specifiers:
 * +
 * space
-* #
+* \#
 
 ##### REPO: GitHub repository: printf
 
