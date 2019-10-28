@@ -251,8 +251,8 @@ Conversion specifiers to handle: d, i, u, o, x, X
 #### Handle the following custom conversion specifier:
 * R: prints the rot13'ed string
 
-##### REPO:
-* GitHub repository: printf
+##### REPO: 
+##### * GitHub repository: printf
 
 ### 16. *
 #### All the above options work well together.
