@@ -6,9 +6,9 @@
  * @args: va_list with str.
  * Return: number str for print.
  */
-int printstr(char *format, va_list args)
+int printstr(char *format, va_list pa)
 {
-	char *string = va_arg(args, char *);
+	char *string = va_arg(pa, char *);
 	int count;
 	(void)format;
 

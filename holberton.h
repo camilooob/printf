@@ -14,8 +14,8 @@
 typedef struct structprint
 {
 	char *q;
-	int (*u)(char *pa, va_list);
-} print_fn;
+	int (*u)(char *format, va_list);
+} structype;
 int _putchar(char character);
 int _puts(char *string);
 int printc(char *format, va_list);

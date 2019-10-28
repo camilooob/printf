@@ -6,9 +6,9 @@
  * @args: va_list with char.
  * Return: number char for printf.
  */
-int print_c(char *format, va_list args)
+int printc(char *format, va_list pa)
 {
 	(void)format;
-	_putchar(va_arg(args, int));
+	_putchar(va_arg(pa, int));
 	return (1);
 }

@@ -7,25 +7,25 @@
  */
 int _printf(char *format, ...)
 {
-	int written = 0, (*print_fn)(char *, va_list);
-	char specifier[3];
-	va_list args;
+	int written = 0, (*structype)(char *, va_list);
+	char q[3];
+	va_list pa;
 
 	if (format == NULL)
 		return (-1);
-	specifier[2] = '\0';
-	va_start(args, format);
+	q[2] = '\0';
+	va_start(pa, format);
 	_putchar(-1);
 	while (format[0])
 	{
 		if (format[0] == '%')
 		{
-			print_fn = driver(format);
-			if (print_fn)
+			structype = driver(format);
+			if (structype)
 			{
-				specifier[0] = '%';
-				specifier[1] = format[1];
-				written += print_fn(specifier, args);
+				q[0] = '%';
+				q[1] = format[1];
+				written += structype(q, pa);
 			}
 			else if (format[1] != '\0')
 			{
