@@ -7,7 +7,7 @@
 *.ko
 *.obj
 *.elf
-
+/testc
 # Linker output
 *.ilk
 *.map
