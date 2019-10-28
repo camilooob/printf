@@ -1,7 +1,7 @@
 # Prerequisites
 *.d
 *main.c
-
+/testc
 # Object files
 *.o
 *.ko
@@ -51,3 +51,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+.autogit
+.dist
+.history
+*-main.c
