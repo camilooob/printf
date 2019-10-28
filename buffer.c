@@ -23,8 +23,8 @@ int _buffer(char ch)
 	if (ch != -1 && ch != -2)
 	{
 		printbuffer[bufferContador] = ch;
-		bufferContador++
+		bufferContador++;
 		return (1);
 	}
 	return (0);
-}
+    }
