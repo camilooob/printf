@@ -8,7 +8,7 @@
 int _buffer(char ch)
 {
 	static int bufferContador;
-	static char printbuffer[1024];
+	static char printbuffer[1300];
 
 	if (ch == -1)
 	{
