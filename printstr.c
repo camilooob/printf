@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * print_str- print str.
+ * printstr- print str.
+ * @pa: gtgtg
  * @format: format str.
- * @args: va_list with str.
  * Return: number str for print.
  */
 int printstr(char *format, va_list pa)

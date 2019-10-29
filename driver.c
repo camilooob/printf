@@ -3,8 +3,12 @@
 /**
  * driver - selector for type of fun.
  * @format: string.
- * Return: pointer print
+ * Description: the function loops through the structs
+ * selector[] ment of the struct.
+ * Return: a pointer
+ * structype selector - Struct
  */
+
 int (*driver(char *format))(char *format, va_list)
 {
 	int i;
