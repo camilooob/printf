@@ -45,7 +45,7 @@ int integer(int number)
 	count = contadordigit(number);
 	if (number < 0)
 	{
-		_buffer('-');
+		 _putchar('-');
 		unint = -number;
 	}
 	else
@@ -53,7 +53,7 @@ int integer(int number)
 
 	if (unint >= 10)
 		integer(unint / 10);
-	_buffer(unint % 10 + '0');
+	_putchar(unint % 10 + '0');
 
 	return (count);
 }

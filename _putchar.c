@@ -5,7 +5,7 @@
  * @ch: char to print
  * Return: Output.
  */
-int _buffer(char ch)
+int _putchar(char ch)
 {
 	static int contador;
 	static char buffer[1024];

@@ -10,6 +10,6 @@ int printpercent(char *format, va_list pa)
 {
 	(void)format;
 	(void)pa;
-	_buffer('%');
+	_putchar('%');
 	return (1);
 }

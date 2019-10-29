@@ -15,7 +15,7 @@ int _printf(char *format, ...)
 		return (-1);
 	q[2] = '\0';
 	va_start(pa, format);
-	_buffer(-1);
+	_putchar(-1);
 	while (format[0])
 	{
 		if (format[0] == '%')
@@ -29,22 +29,22 @@ int _printf(char *format, ...)
 			}
 			else if (format[1] != '\0')
 			{
-				written += _buffer('%');
-				written += _buffer(format[1]);
+				written += _putchar('%');
+				written += _putchar(format[1]);
 			}
 			else
 			{
-				written += _buffer('%');
+				written += _putchar('%');
 				break;
 			}
 			format += 2;
 		}
 		else
 		{
-			written += _buffer(format[0]);
+			written += _putchar(format[0]);
 			format++;
 		}
 	}
-	_buffer(-2);
+	_putchar(-2);
 	return (written);
 }
