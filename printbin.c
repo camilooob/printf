@@ -1,14 +1,17 @@
 #include "holberton.h"
 
-/**
- * printc - prints a char.
- * @pa: format of char.
- * @format: format
- * Return: number char for printf.
- */
 int printbin(char *format, va_list pa)
 {
-	(void)format;
-	_buffer(va_arg(pa, int));
-	return (1);
+  int binarynum = 0;
+  int rem, temp = 1;
+  int num = va_arg(pa, int);
+  
+  while (num != 0)
+  {
+    rem = num % 2;
+    num = num / 2;
+    binarynum = binarynum + rem * temp;
+    temp = temp * 10;
+  }
+  return binarynum;
 }

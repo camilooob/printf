@@ -4,7 +4,8 @@
 #include <stdarg.h>
 #include <stddef.h>
 #include <stdlib.h>
-
+#include <stdio.h>
+#include <string.h>
 /**
  * struct structprint - structure containing
  * @q: the location and method to translate data to characters.
@@ -29,4 +30,6 @@ int integer(int number);
 int contadordigit(int number);
 int _abs(int number);
 int printpercent(char *format, va_list pa);
+int printbin(char *format, va_list pa);
+
 #endif
