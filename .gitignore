@@ -3,13 +3,12 @@
 *main.c
 .holberton.h.swo
 .holberton.h.swp
-/testc
 # Object files
 *.o
 *.ko
 *.obj
 *.elf
-
+/testc
 # Linker output
 *.ilk
 *.map

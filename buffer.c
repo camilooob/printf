@@ -1,8 +1,8 @@
 #include <unistd.h>
 
 /**
- * _putchar - print char with stdout
- * @char: char to print
+ * _buffer - print char with stdout
+ * @ch: char to print
  * Return: Ok(1), error(1).
  */
 int _buffer(char ch)
