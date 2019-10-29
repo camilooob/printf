@@ -16,6 +16,8 @@ int (*driver(char *format))(char *format, va_list)
 	structype selector[] = {
 		{"%c", printc},
 		{"%s", printstr},
+        {"%d", printint},
+        {"%i", printint},
 		{NULL, NULL}
 	};
 
