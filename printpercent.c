@@ -2,8 +2,8 @@
 
 /**
  * printpercent - prints %
- * @format: format (unused)
- * @args: va_list (unused)
+ * @format: format
+ * @pa: va_list
  * Return: number of characters printed
  */
 int printpercent(char *format, va_list pa)
