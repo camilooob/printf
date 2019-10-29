@@ -1,11 +1,11 @@
 #include <unistd.h>
 
 /**
- * _buffer - print char with stdout
+ * _putchar - print char with stdout
  * @ch: char to print
  * Return: Output.
  */
-int _buffer(char ch)
+int _putchar(char ch)
 {
 	static int contador;
 	static char buffer[1024];
