@@ -3,7 +3,7 @@
 /**
  * _buffer - print char with stdout
  * @ch: char to print
- * Return: Ok.
+ * Return: Output.
  */
 int _buffer(char ch)
 {
