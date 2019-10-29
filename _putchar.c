@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * _buffer - print char with stdout
+ * _putchar - print char with stdout
  * @ch: char to print
  * Return: Output.
  */
