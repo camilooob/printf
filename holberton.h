@@ -28,4 +28,5 @@ int printint(char *format, va_list pa);
 int integer(int number);
 int contadordigit(int number);
 int _abs(int number);
+int printpercent(char *format, va_list pa);
 #endif
