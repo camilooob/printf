@@ -3,27 +3,27 @@
 /**
  * _buffer - print char with stdout
  * @ch: char to print
- * Return: Ok(1), error(1).
+ * Return: Ok.
  */
 int _buffer(char ch)
 {
-	static int bufferContador;
-	static char printbuffer[1300];
+	static int contador;
+	static char buffer[1024];
 
 	if (ch == -1)
 	{
-		bufferContador = 0;
+		contador = 0;
 		return (0);
 	}
-	if (ch == -2 || bufferContador == 1024)
+	if (ch == -2 || contador == 1024)
 	{
-		write(1, printbuffer, bufferContador);
-		bufferContador = 0;
+		write(1, buffer, contador);
+		contador = 0;
 	}
 	if (ch != -1 && ch != -2)
 	{
-		printbuffer[bufferContador] = ch;
-		bufferContador++;
+		buffer[contador] = ch;
+		contador++;
 		return (1);
 	}
 	return (0);
