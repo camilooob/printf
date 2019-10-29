@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * print_c - prints a char.
- * @format: format of char.
- * @args: va_list with char.
+ * printc - prints a char.
+ * @pa: format of char.
+ * @format: format
  * Return: number char for printf.
  */
 int printc(char *format, va_list pa)
