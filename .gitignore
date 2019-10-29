@@ -1,7 +1,8 @@
 # Prerequisites
 *.d
 *main.c
-
+.holberton.h.swo
+.holberton.h.swp
 /testc
 # Object files
 *.o
