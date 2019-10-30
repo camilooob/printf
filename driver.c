@@ -21,6 +21,7 @@ structype selector[] = {
 {"%%", printpercent},
 {"%x", printhex},
 {"%X", printHEX},
+{"%o", printocta},
 {NULL, NULL}
 };
 
